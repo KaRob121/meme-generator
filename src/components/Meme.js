@@ -57,7 +57,7 @@ function Meme() {
       </div>
       <div className="meme">
         <img 
-          className="meme-image"
+          className="meme--image"
           src={ meme.randomImage }
         />
         <h2 className="meme--text top">{ meme.topText }</h2>
